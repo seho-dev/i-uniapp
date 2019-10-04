@@ -8,7 +8,6 @@
           <view class="back iconfont" v-if="backShow" @click="back">back</view>
           <!-- left -->
           <view class="title" :class="{left: !backShow}">{{headerTitle}}</view>
-          <view class="next iconfont" v-if="next" @click="handelNext">next</view>
           <view class="go iconfont" :class="right.icon" :style="right.style" v-if="right != null && right.type != 'date'" @click="goRight">{{right.name}}</view>
         </view>
       </view>
@@ -47,12 +46,6 @@ export default {
       type: Boolean,
       default: () => {
         return true;
-      }
-    },
-    next: {
-      type: Boolean,
-      default: () => {
-        return false;
       }
     },
     // 右边自定义字和监听
