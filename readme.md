@@ -33,7 +33,7 @@ i-uniapp插件库 v1.0
 
 
 ## 使用API：（按照发布时间来排序按照发布时间来排序）
-* [在线文档](https://www.yinzhuoei.com/index.php/118.html)
+* [在线文档](https://www.yinzhuoei.com/index.php/i-uniapp.html)
 * [github地址, 欢迎star!!](https://github.com/1018715564/i-uniapp)
 
 
